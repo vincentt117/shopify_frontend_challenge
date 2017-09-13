@@ -1,0 +1,59 @@
+/*
+$text-color: #FFF;
+$brand-dark: #000639;
+$brand-light: #5c6ac4;
+$success-color: #7AB55C;
+$error-color: #C23628;
+$base-font-size: 16px;
+$title-font-size: 24px;
+$field-status-font-size: 13px;
+*/
+
+body {
+    background-color: #000639;
+    top: 35%;
+    left: 33%;
+    width: 40%;
+    position: absolute;
+    margin: auto;
+    font-family: sans-serif;
+    color: #FFF;
+    text-align: center;
+}
+
+.title_text {
+    font-weight: 150;
+    font-size: 24px;
+}
+
+.paragraph_text {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.error_text {
+    font-size: 13px;
+    font-weight: 100;
+    color: #C23628;
+    display: none;
+}
+
+.email_field {
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 45%;
+    padding-left: 10px;
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.email_button {
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 30%;
+    color: #FFF;
+    font-size: 16px;
+    background-color: #5c6ac4;
+}
